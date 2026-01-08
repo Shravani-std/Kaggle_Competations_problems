@@ -1,4 +1,4 @@
-# 🏦 Loan Repayment Probability Prediction – Kaggle Competition
+# 🏦 Predicting Loan Payback – Kaggle Competition
 
 ## 📌 Competition Overview
 This project is developed as part of a **Kaggle Machine Learning Competition** focused on predicting the **probability of loan repayment**.  
@@ -122,3 +122,4 @@ submission = pd.read_csv('sample_submission.csv')
 TARGET = 'loan_paid_back'
 submission[TARGET] = test_probabilities
 submission.to_csv('submission.csv', index=False)
+
